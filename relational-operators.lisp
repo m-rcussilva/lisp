@@ -1,0 +1,6 @@
+(format t "5 is greater than 2: ~d ~%" (> 5 2))
+(format t "2 is greater than 10: ~d ~%" (> 2 10))
+(format t "2 is lower than 10: ~d ~%" (< 2 10))
+(format t "800 is greater or equal to 799: ~d ~%" (>= 800 799))
+(format t "800 is greater or equal to 800: ~d ~%" (>= 800 800))
+(format t "800 is equal to 800: ~d ~%" (= 800 800))
